@@ -1,0 +1,243 @@
+
+/* AREA PRINCIPAL */
+body {
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #15161B;
+    width: 100vw;
+    height: auto;
+}
+
+/* AREA DE CABEÇALHO */
+header {
+    /* display para os elementos */
+    display: flex;
+    /* justificar ao centro  */
+    justify-content: center;
+    
+}
+
+
+/* TEXTO DO CABEÇALHO */
+.logo h2 {
+    color: #fff;
+    font-size: 30px;
+}
+
+/* COMPLEMENTO TEXTO CABEÇALHO */
+span {
+    color: #1A7993;
+}
+
+/* SESSÃO 1: CONTEÚDO E IMAGEM */
+.section1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+/* SESSÃO 1: PRIMEIRO TEXTO H3 */
+.area-title h3 {
+    color: #fff;
+    font-weight: normal;
+}
+
+
+/* SESSÃO 1: SEGUNDO TEXTO H1 */
+.area-title h1 {
+    /* cor da onte */
+    color: #fff;
+    /* tamanho da fonte */
+    font-size: 40px;
+    /* espaço entre as palavras */
+    line-height: 45px;
+    margin-top: -16px;
+}
+
+
+/* SESSÃO 1: BOTÃO QUERO PARTICIPAR*/
+.area-title a {
+    display: inline-block;
+    background-color: #1A7993;
+    padding: 15px 60px;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+/* SESSÃO 1: IMAGEM NA ESQUERDA */
+.image1 img {
+    width: 425px;
+    height: auto;
+    margin-top: 20px;
+    margin-left: 55px;
+}
+
+/* AREA SESSÃO 2: CARDS */
+.section-cards {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+/* AREA SESSÃO 2: CARDS: TEXTO H2 */
+.section-cards h2 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 45px;
+}
+
+
+/* AREA SESSÃO 2: CARDS: CARDS */
+.cards {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+/* AREA SESSÃO 2: CARDS: CARD */
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 200px;
+    height: 180px;
+    background:#2C2F37; 
+    margin-left: 25px;
+    color: #fff;
+    
+    
+/* AREA SESSÃO 2: CARDS: EFEITO BACKGROUD AO PASSAR O MOUSE */
+}
+.card:hover {
+    background-color: #1A7993;
+    transition: 0.2s all;
+
+}
+
+/* AREA SESSÃO 2: CARDS: ICON DO CARD (CORAÇÃO) */
+.card img {
+    width: 65px;
+}
+
+
+/* AREA SESSÃO 3:  */
+
+.section3 {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: #1A7993;
+    height: 342px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.area-title2 h1 {
+    color: #fff;
+    font-size: 35px;
+}
+
+.area-title2 h3 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: normal;
+    margin-top: -26px;
+}
+
+
+.area-title2 a {
+    display: inline-block;
+    background-color: #fff;
+    padding: 20px 85px;
+    font-size: 19px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+.image2 img {
+    width: 280px;
+    height: auto;
+    margin-top: 5px;
+    margin-left: 100px;
+
+}
+
+
+/* AREA FORM */
+.area-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+    flex-direction: column;
+
+}
+.area-form h2 {
+    color: #fff;
+    text-align: center;
+}
+
+.formulario form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 300px;
+}
+
+.formulario input {
+    margin-top: 20px;
+    height: 40px;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    font-family: "Oswald", sans-serif;
+
+
+}
+
+input::placeholder {
+    color: #000;
+    text-transform: uppercase;
+}
+
+
+input[type="submit"] {
+    background-color: #1A7993;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #fff;
+    height: 55px;
+    cursor: pointer;
+}
+
+footer {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.social h3 {
+    color: #fff;
+    font-weight: normal;
+    text-align: center;
+}
+
+.social-icon {
+    display: flex;
+    justify-content: center;
+}
+
+.social-icon img {
+    width: 30px;
+    padding-inline: 10px;
+}
